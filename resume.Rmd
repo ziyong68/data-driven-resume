@@ -1,6 +1,6 @@
 ---
-title: Mengwei Yue's Resume"
-author: Mengwei Yue (Taffy)
+title: Brian Li's Resume"
+author: Brian C Li
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -74,7 +74,7 @@ Aside
 ================================================================================
 
 
-![logo](ddsi_logo_blue.png){width=100%}
+![logo](vz_logo.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -83,7 +83,6 @@ Contact {#contact}
 contact_info %>% 
   glue_data("- <i class='fa fa-{icon}'></i> {contact}")
 ```
-
 
 
 Programming Skills {#programming-skills}
@@ -96,29 +95,30 @@ build_skill_bars(skills)
 
 Other Skills {#other-skills}
 --------------------------------------------------------------------------------
-Office Tools: Excel, PowerPoint, Confluence, Jira, VersionOne
+Software Tools: Excel, PowerPivot, Power BI, MATLAB, PowerPoint, Tableau, Photoshop, ExpoCAD, Aspen Plus
 
-Internal Systems: HROS, FBRMS, TravelBox
+Reporting Systems: SAP Business objects, Eclipse BIRT, IBM Maximo, IBM Tririga, Vueworks GIS
 
 Languages: English, Mandarin, Cantonese
 
 
-Volunteer & Hobbies {#volunteer-hobbies}
+Certifications {#certifications}
 --------------------------------------------------------------------------------
-Disney Data Analytics Conference Women Mentor
 
-Semi-final judge of Christopher Columbus Award
+Lean and Six Sigma Green Belt Certificate, Purdue University
 
-Purdue Boiler Out Activity Coordinator
+Managing Big Data with MySQL, Duke University
 
-Calligraphy, Photography, Travel Planning, Horror Movies
+Python Programming Certification, University of Michigan
+
+FCRA Data User Certification program through CDIA
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 Made w/ R [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/taffyyue/data-driven-resume](https://github.com/taffyyue/data-driven-resume).
+Source code: [github.com/ziyong68/data-driven-resume](https://github.com/ziyong68/data-driven-resume).
 
 Last updated on `r Sys.Date()`.
 
@@ -126,11 +126,19 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Mengwei Yue (Taffy) {#title}
+Brian Chi Yan Li {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
 print_text_block(text_blocks, 'intro')
+```
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
 ```
 
 
@@ -142,20 +150,9 @@ position_data %>% print_section('positions')
 ```
 
 
-Education & Research {data-icon=graduation-cap data-concise=true}
+Research & Projects {data-icon=flask}
 --------------------------------------------------------------------------------
 
-::: aside
-
-**SAS Certifications**
-
-Certified Statistical Business Analyst Using SAS 9: Regression and Modeling
-
-Certified Advanced Programmer for data management software SAS 9  
-
-Certified Base Programmer for data management software SAS
-:::
-
 ```{r}
-position_data %>% print_section('education')
+position_data %>% print_section('research')
 ```
