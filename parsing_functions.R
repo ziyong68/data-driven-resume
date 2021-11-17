@@ -8,7 +8,7 @@ find_link <- regex("
   \\)   # Closing parenthesis
   ",
                    comments = TRUE)
-
+# test
 # Function that removes links from text and replaces them with superscripts that are 
 # referenced in an end-of-document list. 
 sanitize_links <- function(text){
