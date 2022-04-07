@@ -10,7 +10,7 @@ output:
 ---
 
 
-```{r, include=FALSE}
+```{r include=FALSE}
 knitr::opts_chunk$set(
   results='asis', 
   echo = FALSE
