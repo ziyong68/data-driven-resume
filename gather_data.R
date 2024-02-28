@@ -1,5 +1,5 @@
 # =================================================================================
-# This code uses google sheets to store the position info
+# This code uses Google sheets to store the position info
 if(using_googlesheets){
   
   library(googlesheets4)
