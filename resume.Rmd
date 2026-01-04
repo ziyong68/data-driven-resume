@@ -74,7 +74,7 @@ Aside
 ================================================================================
 
 
-![logo](vz_logo.png){width=100%}
+![logo](levis-logo-0.png){width=100%}
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -95,9 +95,9 @@ build_skill_bars(skills)
 
 Other Skills {#other-skills}
 --------------------------------------------------------------------------------
-Software Tools: Excel, PowerPivot, Power BI, MATLAB, PowerPoint, Tableau, Photoshop, ExpoCAD, Aspen Plus
+Tools: Teradata, Hadoop, Spark, Docker, Airflow, GCP Vertex, AWS SageMaker 
 
-Reporting Systems: SAP Business objects, Eclipse BIRT, IBM Maximo, IBM Tririga, Vueworks GIS
+Reporting Systems: Qlik, SAP Business objects, Eclipse BIRT, Jira, Confluence
 
 Languages: English, Mandarin, Cantonese
 
