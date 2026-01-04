@@ -1,6 +1,6 @@
 ---
 title: Brian Li's Resume"
-author: Brian C Li
+author: Brian C LI
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
